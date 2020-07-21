@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Relax</string>
+    <string name="signin">تسجيل دخول </string>
+    <string name="Remember">نسيت كلمه السر ؟ اضغط هنا !  </string>
+    <string name="create"> لم تمتلك حساب ؟انشاء حساب!  </string>
+    <string name="username">رقم الهاتف   </string>
+    <string name="passwardd">كلمة المرور    </string>
+    <string name="name">اسمك     </string>
+    <string name="address">العنوان  </string>
+    <string name="signup">تسجيل جديد   </string>
+    <string name="goSign"> تمتلك حساب الان ؟ تسجيل الدخول   </string>
+    <string name="passwarddforget">كلمة المررور الجديدة   </string>
+    <string name="remember">استرجاع    </string>
+    <string name="contact">  من فضلك ادخل رقم الهاتف  وسوف نقوم بالتواصل معك </string>
+    <string name="default_notification_channel_id">channel-01</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_address">Map</string>
+
+
+</resources>

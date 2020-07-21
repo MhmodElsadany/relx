@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fc2e00"
+    app:titleTextColor="#ffffff"
+    app:theme="@style/ToolbarTheme" >
+    <ImageView
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/search"
+        android:layout_gravity="right"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"/>
+
+
+    <RelativeLayout
+        android:id="@+id/binre"
+        android:layout_width="wrap_content"
+        android:layout_gravity="left"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/bin"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/shopping" />
+
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/bin"
+            android:layout_alignRight="@id/bin"
+            android:background="@drawable/badge_circle"
+            android:text="10"
+            android:textColor="#FFF"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/offer"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/offer" />
+
+
+
+
+</androidx.appcompat.widget.Toolbar>
+

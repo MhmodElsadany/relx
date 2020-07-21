@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="180dp"
+    android:background="@drawable/cartbackground"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="اكتب مشكلتك هنا وسوف يتم التواصل معك"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/txt_dia"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:layout_margin="10dp"
+        android:inputType="text|textMultiLine"
+        android:hint="ادخل  مشكلتك من فضلك"
+        android:textSize="15dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#3E80B4"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@android:color/white"
+            android:clickable="true"
+            android:text="تاكيد"
+            android:textColor="#5DBCD2"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:background="#e3e3e3"
+
+    >
+
+    <ImageView
+        android:id="@+id/exit"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/exit" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Widget.AppCompat.EditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="اطلب ما تريد "
+            android:textColor="#111111"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_dia"
+            style="@android:style/TextAppearance.Large"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittxt_style"
+            android:gravity="right"
+            android:hint="  اكتب هنا كل ما تريد "
+            android:inputType="text|textMultiLine"
+            android:padding="15dp"
+            android:paddingBottom="25dp"
+            android:textSize="20dp"
+
+            />
+
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/btnstyle"
+            android:text="تاكيد"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</RelativeLayout>
